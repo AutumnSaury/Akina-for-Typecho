@@ -172,6 +172,6 @@
         color: var(--main-text-color);
     }
     pre[class*="language-"]::-webkit-scrollbar-thumb {
-        background-color: #35b995;
+        background-color: #00BFFF;
     }
 }

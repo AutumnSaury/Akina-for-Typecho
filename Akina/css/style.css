@@ -1738,7 +1738,7 @@ li.alidonate:after {
     font-size: 14px;
     color: #fff;
 }
-.open-message:before {
+/* .open-message:before {
     font-family: fantasy;
     content: "!";
     position: absolute;
@@ -1752,7 +1752,7 @@ li.alidonate:after {
     background: #FFFFFF;
     line-height: 34px;
     border-radius: 5px;
-}
+} */
 .open-message p {
     margin:5px 0;
     overflow: hidden;
@@ -4820,11 +4820,11 @@ background-color: #ffffff;
 ::-webkit-scrollbar-thumb  
 {  
 border-radius: 10px;   
-background-color: #35B995;  
+background-color: #00BFFF;  
 }
 /* 加密文章提示文字样式 */
 .text:hover{
-    border: 1px solid #35B995;
+    border: 1px solid #00BFFF;
 }
 p.word:before {
     content: "[";
