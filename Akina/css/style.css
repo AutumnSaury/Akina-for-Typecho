@@ -1755,9 +1755,9 @@ li.alidonate:after {
 } */
 .open-message p {
     /* margin:5px 0; */
+    text-align: center;
     overflow: hidden;
     text-overflow: ellipsis;
-    text-align: center;
     white-space: nowrap;
 }
 .open-message a {
