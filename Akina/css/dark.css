@@ -104,7 +104,7 @@
     .open-message:after {
         border-bottom: 10px solid var(--main-info-color);
     }
-    .donate {
+    /* .donate {
         border: 1px solid var(--main-text-color);
     }
     .donate_inner {
@@ -114,7 +114,7 @@
     }
     .donate_inner:after, .donate_inner:before {
         border-right: 8px solid var(--main-info-color);
-    }
+    } */
     .comment .commeta, #comments-navi {
         border-bottom: 1px dashed var(--img-br);
     }
