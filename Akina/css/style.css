@@ -1757,6 +1757,7 @@ li.alidonate:after {
     margin:5px 0;
     overflow: hidden;
     text-overflow: ellipsis;
+    text-align: center;
     white-space: nowrap;
 }
 .open-message a {
