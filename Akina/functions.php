@@ -39,28 +39,28 @@ echo '<style>
 </style>';
 echo '<span class="themeConfig"><h3>博客信息</h3></span>';
 //博客信息
-    $logo = new Typecho_Widget_Helper_Form_Element_Text('logo', NULL,'images/akina.png', _t('网站logo地址'), _t('默认值images/akina.png，图片位置/usr/themes/Akina/images/akina.png'));
+    $logo = new Typecho_Widget_Helper_Form_Element_Text('logo', NULL,'images/autumn_saury.svg', _t('网站logo地址'), _t('默认值images/autumn_saury.svg，图片位置/usr/themes/Akina/images/autumn_saury.svg'));
     $form->addInput($logo);
 	
-    $profile = new Typecho_Widget_Helper_Form_Element_Text('profile', NULL,'images/akinadeaava.jpg', _t('博主头像地址'), _t('默认值images/akinadeaava.jpg，图片位置/usr/themes/Akina/images/akinadeaava.jpg'));
+    $profile = new Typecho_Widget_Helper_Form_Element_Text('profile', NULL,'images/avatar.jpg', _t('博主头像地址'), _t('默认值images/avatar.jpg，图片位置/usr/themes/Akina/images/avatar.jpg'));
     $form->addInput($profile);
-	
-    $wedo = new Typecho_Widget_Helper_Form_Element_Text('wedo', NULL,'images/donate/wedo.png', _t('微信收款码'), _t('默认值images/donate/wedo.png，图片位置/usr/themes/Akina/images/donate/wedo.png'));
+/* 	
+     $wedo = new Typecho_Widget_Helper_Form_Element_Text('wedo', NULL,'images/donate/wedo.png', _t('微信收款码'), _t('默认值images/donate/wedo.png，图片位置/usr/themes/Akina/images/donate/wedo.png'));
     $form->addInput($wedo);
     
     $alido = new Typecho_Widget_Helper_Form_Element_Text('alido', NULL,'images/donate/alido.png', _t('支付宝收款码'), _t('默认值images/donate/alido.png，图片位置/usr/themes/Akina/images/donate/alido.png'));
     $form->addInput($alido);
-	
-    $sub = new Typecho_Widget_Helper_Form_Element_Text('sub', NULL,'个人博客', _t('网站副标题'), _t('默认内容"个人博客"'));
+ */
+    $sub = new Typecho_Widget_Helper_Form_Element_Text('sub', NULL,'秋サンマ直营魚料理工房', _t('网站副标题'), _t('默认内容"秋サンマ直营魚料理工房"'));
     $form->addInput($sub);
 	
-    $headerinfo = new Typecho_Widget_Helper_Form_Element_Text('headerinfo', NULL,'Carpe Diem and Do what I like', _t('头部内容'), _t('首页头部介绍'));
+    $headerinfo = new Typecho_Widget_Helper_Form_Element_Text('headerinfo', NULL,'秋サンマのBlog', _t('头部内容'), _t('首页头部介绍'));
     $form->addInput($headerinfo);
 	
-    $NOTICE = new Typecho_Widget_Helper_Form_Element_Text('NOTICE', NULL,'我很荣幸的启用了Akina主题', _t('公告内容'), _t('首页公告内容'));
+    $NOTICE = new Typecho_Widget_Helper_Form_Element_Text('NOTICE', NULL,'For the people who are still alive.', _t('公告内容'), _t('首页公告内容'));
     $form->addInput($NOTICE);
 	
-    $ICP = new Typecho_Widget_Helper_Form_Element_Text('ICP', NULL,'Carpe Diem and Do what I like', _t('ICP备案号'), _t('备案号（默认内容"Carpe Diem and Do what I like"）'));
+    $ICP = new Typecho_Widget_Helper_Form_Element_Text('ICP', NULL,'For the people who are still alive.', _t('ICP备案号'), _t('备案号（默认内容"For the people who are still alive."）'));
     $form->addInput($ICP);
 	
     $gongan = new Typecho_Widget_Helper_Form_Element_Text('gongan', NULL,'', _t('公安联网备案'), _t('格式“X公安备案xxxxxxxxxxxxxx号”（没有不填即可）'));
@@ -68,7 +68,7 @@ echo '<span class="themeConfig"><h3>博客信息</h3></span>';
 	
 //个人信息
     //新浪
-    $SINA = new Typecho_Widget_Helper_Form_Element_Text('SINA', NULL,'https://weibo.com/', _t('<br><span class="themeConfig"><h3>个人信息</h3></span><div class="info">不填写相关信息时可以隐藏该信息和图标</div>新浪微博地址'), _t('默认新浪微博首页（请规范填写，需https://，http://或者//）'));
+    $SINA = new Typecho_Widget_Helper_Form_Element_Text('SINA', NULL,'', _t('<br><span class="themeConfig"><h3>个人信息</h3></span><div class="info">不填写相关信息时可以隐藏该信息和图标</div>新浪微博地址'), _t('默认新浪微博首页（请规范填写，需https://，http://或者//）'));
     $form->addInput($SINA);
     //微信
     $Wechat = new Typecho_Widget_Helper_Form_Element_Text('Wechat', NULL,'', _t('微信号'), _t('首页个人信息'));
@@ -85,14 +85,14 @@ echo '<span class="themeConfig"><h3>博客信息</h3></span>';
     $Qzone = new Typecho_Widget_Helper_Form_Element_Text('Qzone', NULL,'', _t('QQ空间信息'), _t('首页个人QQ空间信息:https://user.qzone.qq.com/QQ号码'));
     $form->addInput($Qzone);
     //Github
-    $Github = new Typecho_Widget_Helper_Form_Element_Text('Github', NULL,'https://github.com/', _t('Github地址'), _t('Github主页地址（请规范填写，需https://，http://或者//）'));
+    $Github = new Typecho_Widget_Helper_Form_Element_Text('Github', NULL,'https://github.com/Autumn_Saury', _t('Github地址'), _t('Github主页地址（请规范填写，需https://，http://或者//）'));
     $form->addInput($Github);
     //哔哩哔哩
-    $Bilibili = new Typecho_Widget_Helper_Form_Element_Text('Bilibili', NULL,'https://www.bilibili.com/', _t('Bilibili地址'), _t('Bilibili主页地址（请规范填写，需https://，http://或者//）'));
+    $Bilibili = new Typecho_Widget_Helper_Form_Element_Text('Bilibili', NULL,'https://space.bilibili.com/20294720', _t('Bilibili地址'), _t('Bilibili主页地址（请规范填写，需https://，http://或者//）'));
     $form->addInput($Bilibili);
 	
     //网易云音乐
-    $Music = new Typecho_Widget_Helper_Form_Element_Text('Music', NULL,'https://music.163.com/', _t('网易云音乐用户ID'), _t('登陆网页版网易云音乐，点击个人主页。https://music.163.com/#/user/home?id=这里是ID'));
+    $Music = new Typecho_Widget_Helper_Form_Element_Text('Music', NULL,'', _t('网易云音乐用户ID'), _t('登陆网页版网易云音乐，点击个人主页。https://music.163.com/#/user/home?id=这里是ID'));
     $form->addInput($Music);
 	
 //文章推荐

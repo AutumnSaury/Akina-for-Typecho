@@ -263,9 +263,9 @@ $("#toggle-comment-info").click(function click_comment_info(){
   });
 
 //打赏 8.15
-  $(".donate").click(function(){
+  /* $(".donate").click(function(){
     $(".donate_inner").fadeToggle("fast");
-  });
+  }); */
  
 // Archives Page
 	$('.archives').hide();

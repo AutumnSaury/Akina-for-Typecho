@@ -96,13 +96,13 @@
 				<i class="iconfont show-share">&#xe60c;</i>
 			</div>
 			<!-- 赞助按钮 -->
-			<div class="donate">
+			<!-- <div class="donate">
 			<a>赏</a>
 				<ul class="donate_inner">
 					<li class="wedonate"><img src="<?php echo authorProfile($this->options->wedo,theurl);?>"></li>
 					<li class="alidonate"><img src="<?php echo authorProfile($this->options->alido,theurl);?>"></li>
 				</ul>
-			</div>
+			</div> -->
 			<!-- 文章标签 -->
 			<div class="post-tags">
 				<i class="iconfont">&#xe602;</i>
