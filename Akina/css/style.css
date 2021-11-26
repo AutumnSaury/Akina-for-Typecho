@@ -687,7 +687,7 @@ font-weight: 400;
 }
 
 .site-title a:hover {
-color:#68D4C0
+color:#688ed4
 }
 
 .site-title img {
@@ -999,7 +999,7 @@ width: 80px;
 height: 80px;
 line-height:80px;
 text-align:center;
-background: #BBE2DB;
+background: azure;
 border-radius: 50%;
 opacity:0;
 z-index:1;
@@ -4726,7 +4726,7 @@ color: #9CACC5;
 
 #mo-nav ul li a:hover {
 cursor: pointer;
-color: skyblue;
+color: #7999d6;
 }
 
 .we-content li {
