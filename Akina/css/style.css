@@ -1053,7 +1053,7 @@ font-family: miranafont,"Hiragino Sans GB",STXihei,"Microsoft YaHei",SimSun,sans
 }
 
 .entry-title a:hover {
-color: #8fd0cc;	
+color: skyblue;	
 }
 
 .p-time {
@@ -5020,7 +5020,7 @@ pre[class*="language-"] {
 }
 
 .token.inserted {
-	color: green;
+	color: blue;
 }
 /*窗口提示样式*/
 .fytx_alert_background {
