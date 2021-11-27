@@ -1,7 +1,7 @@
 <?php if (!defined('__TYPECHO_ROOT_DIR__')) exit; ?>
 <footer id="colophon" class="site-footer" role="contentinfo">
 	<!-- 请尊重作者！至少保留主题名称及其超链接，谢谢！ -->
-	<div id="footer" class="site-info">Copyright © <?php echo date("Y");?> by <a href="<?php $this->options ->siteUrl(); ?>" target="_blank" rel="nofollow"><?php $this->options->title() ?></a> - All rights reserved<span class="sep"> | </span>Theme : <a href="https://zhebk.cn/Web/Akina.html" target="_blank" rel="nofollow">Akina For Typecho</a>
+	<div id="footer" class="site-info">Copyleft <span style="display:inline-block;-ms-transform: rotate(180deg);-webkit-transform: rotate(180deg);transform: rotate(180deg);">©</span> <?php echo date("Y");?> by <a href="<?php $this->options ->siteUrl(); ?>" target="_blank" rel="nofollow"><?php $this->options->title() ?></a> - All rights reversed<span class="sep"> | </span>Theme : <a href="https://zhebk.cn/Web/Akina.html" target="_blank" rel="nofollow">Akina For Typecho</a>
 		<div class="footertext">
 			<p><a href="/start-page" target="_blank" rel="nofollow"><?php $this->options->ICP();?></a></p>
 			<?php if ($this->options->gongan){

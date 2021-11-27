@@ -106,7 +106,7 @@
 					</div>
 					<div class="clear"></div>
 					<?php endif; ?>
-					<p><textarea name="text" id="comment" class="OwO-textarea" placeholder="come on baby !" tabindex="4" cols="50" rows="5"></textarea></p>
+					<p><textarea name="text" id="comment" class="OwO-textarea" placeholder="写点什么？" tabindex="4" cols="50" rows="5"></textarea></p>
 					<div class="com-footer">
 						<input class="submit" name="submit" type="submit" id="submit" tabindex="5" value="发表评论" />
 						<input type='hidden' name='comment_post_ID' value='58' id='comment_post_ID' />
